@@ -1,0 +1,30 @@
+{
+    "network":{
+        "ip": "190.187.237.140",
+        "port": 5007
+    },
+    
+    "mqtt":{
+        "client_id": "PISI-COER",
+        "topics": {
+            "topic":"home/sirena/#",
+            "topic_test":"home/sirena/test"
+        },
+        "topic1":"home/sirena/#",
+        "topic2":"home/sirena/test",
+        "user": "saspe",
+        "pwd": "sasperuclient",
+        "tcpbuff": 1024
+    },
+
+    "alarm":{
+        "file":"alarm1.mp3",
+        "volume":50
+    },
+
+    "location":{
+        "lat": -12.070,
+        "lon": -76.9664
+    }
+
+}
